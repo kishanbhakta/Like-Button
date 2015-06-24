@@ -8,11 +8,11 @@
 
     $scope.allClicks = [];
 
-    var ClickCount = function (clickCount) {
+    var ClickCount = function (count) {
       this.count = 0;
     };
 
-    $scope.amtClicked = function (amtClicked) {
+    $scope.amtClicked = function (clicked) {
       var c = new ClickCount ();
       c.count = +1;
       $scope.allClicks.push(c);
