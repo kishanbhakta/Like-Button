@@ -1,0 +1,57 @@
+body {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font: 400 40px/1 'Kaushan Script', cursive;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h6 {
+  color: blue;
+}
+
+.polaroid {
+  position: relative;
+  width: 220px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
+button {
+  border: 2px solid blue;
+  color: red;
+  background-color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 2px solid blue;
+  color: white;
+  background-image: url(http://fb-timeline-cover.com/covers/download/july-4th-grundge-american-flag-facebook-timeline-cover.png);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  border-radius: 5px;
+}
